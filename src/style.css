@@ -1,1 +1,22 @@
-/* styles go here */
+input,
+textarea {
+  margin-bottom: 10px;
+}
+
+.cats {
+  margin-bottom: 7px;
+}
+
+.cars,
+.last {
+  margin-bottom: 0;
+}
+
+.last2 {
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+fieldset {
+  margin-bottom: 20px;
+}
