@@ -12,7 +12,7 @@
   </head>
   <body>
     <form
-      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      action="http://localhost:8080/"
       method="post"
       autocomplete="off"
     >
@@ -125,16 +125,14 @@
           >
         </div>
         <div>
-          <form>
-            <label for="apptTime">What time do you go to bed?</label>
-            <input
-              id="apptTime"
-              type="time"
-              name="apptTime"
-              step="2"
-              required
-            >
-          </form>
+          <label for="apptTime">What time do you go to bed?</label>
+          <input
+            id="apptTime"
+            type="time"
+            name="apptTime"
+            step="2"
+            required
+          >
         </div>
         <div class="cars">
           <label for="car">What are your favorite brand of cars?</label>
@@ -180,10 +178,12 @@
           </select>
         </div>
       </fieldset>
-      <input
+      <a href="https://mate-academy-form-lesson.herokuapp.com/create-application">
+        <input
         type="submit"
         value="Submit"
-      >
+        >
+      </a>
       <script type="text/javascript" src="./main.js"></script>
     </form>
   </body>
