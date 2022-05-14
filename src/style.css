@@ -1,5 +1,8 @@
-input,
-textarea {
+fieldset {
+  margin-bottom: 20px;
+}
+
+.form {
   margin-bottom: 10px;
 }
 
@@ -7,16 +10,10 @@ textarea {
   margin-bottom: 7px;
 }
 
-.cars,
-.last {
+.head:last-child {
   margin-bottom: 0;
 }
 
 .last2 {
   margin-top: 6px;
-  margin-bottom: 0;
-}
-
-fieldset {
-  margin-bottom: 20px;
 }
