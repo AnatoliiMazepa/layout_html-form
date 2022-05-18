@@ -12,7 +12,7 @@
   </head>
   <body>
     <form
-      action="http://localhost:8080/"
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="post"
       autocomplete="off"
     >
@@ -113,7 +113,8 @@
             Yes
           </label>
           <label>
-            <input class="cats"
+            <input
+              class="cats"
               type="radio"
               value="no"
               name="loveForCats"
@@ -143,7 +144,7 @@
           >
         </div>
         <div>
-          <label for="car">What are your favorite brand of cars?</label>
+          <label for="cars">What are your favorite brand of cars?</label>
           <select
             name="color"
             required
@@ -181,13 +182,12 @@
         <div>
           <label>Would you recommend us?</label>
           <select name="recommend">
-            <option>yes</option>
-            <option>no</option>
+            <option value="yes">yes</option>
+            <option value="no">no</option>
           </select>
         </div>
       </fieldset>
       <input
-        formaction="https://mate-academy-form-lesson.herokuapp.com/create-application"
         type="submit"
         value="Submit"
       >
